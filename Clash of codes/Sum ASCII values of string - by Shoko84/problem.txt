@@ -1,0 +1,30 @@
+===============================================
+A contribution by Shoko84
+Approved by Convly, Ivan_Derzhylo and MMMAAANN
+===============================================
+
+Goal
+-------
+You are given a string of characters s. Output the sum of the ASCII value for each character of the string.
+
+
+
+Input
+-------
+Line 1: A string S
+
+
+
+Output
+-------
+Line 1: The sum N of ASCII values
+
+
+
+Example
+-------
+[Input]
+An exemple
+
+[Output]
+959

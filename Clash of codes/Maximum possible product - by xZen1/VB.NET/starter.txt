@@ -1,0 +1,18 @@
+Module Solution
+' Auto-generated code below aims at helping you parse
+' the standard input according to the problem statement.
+
+    Sub Main ()
+        
+        Dim inputs as String()
+        Dim a as Integer
+        Dim b as Integer
+        Dim c as Integer
+        inputs = Console.ReadLine().Split(" ")
+        a = inputs(0)
+        b = inputs(1)
+        c = inputs(2)
+
+	Console.WriteLine("result")
+    End Sub
+End Module
