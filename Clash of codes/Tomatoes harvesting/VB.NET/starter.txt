@@ -1,0 +1,18 @@
+Module Solution
+    Sub Main () 
+        Dim inputs as String()
+        Dim crops as Integer
+        Dim tomatoes as Integer
+        Dim delay as Integer
+        inputs = Console.ReadLine().Split(" ")
+        crops = inputs(0)
+        tomatoes = inputs(1)
+        delay = inputs(2)
+
+        Dim garden as String
+        garden = Console.ReadLine()
+
+        Console.WriteLine("YOU_CAN_MAKE_A_SOUP_IN_D_DAYS")
+   
+    End Sub
+End Module

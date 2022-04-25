@@ -1,0 +1,34 @@
+Module Solution
+    Sub Main () 
+        Dim inputs as String()
+        Dim crops as Integer
+        Dim tomatoes as Integer
+        Dim delay as Integer
+        inputs = Console.ReadLine().Split(" ")
+        crops = inputs(0)
+        tomatoes = inputs(1)
+        delay = inputs(2)
+
+        Dim garden as String
+        garden = Console.ReadLine()
+
+        Console.Error.WriteLine(crops)
+        Console.Error.WriteLine(tomatoes)
+        Console.Error.WriteLine(delay)
+
+        Dim Possible = true
+        Dim MaxDay As Integer = 0
+        
+        If crops < tomatoes Then Possible = false
+        For Each c As Char in Convert.ToString(delay)
+            If MaxDay > Val(c) Then MaxDay = Val(c)
+        Next
+        If MaxDay > delay Then Possible = false
+
+        If Possible Then 
+            Console.WriteLine("YOU_CAN_MAKE_A_SOUP_IN_" & delay & "_DAYS")
+        Else 
+            Console.WriteLine("YOU_CANNOT_MAKE_A_SOUP_IN_" & delay & "_DAYS")
+        End If
+    End Sub
+End Module

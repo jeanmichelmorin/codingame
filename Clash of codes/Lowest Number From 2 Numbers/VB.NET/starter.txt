@@ -1,0 +1,12 @@
+Module Solution
+    Sub Main ()
+        
+        Dim N as Integer
+        N = Console.ReadLine()
+
+        Dim M as Integer
+        M = Console.ReadLine()
+
+        Console.WriteLine("result")
+    End Sub
+End Module

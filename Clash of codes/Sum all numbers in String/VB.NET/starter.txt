@@ -1,0 +1,7 @@
+Module Solution
+    Sub Main ()
+        Dim text As String
+        text = Console.ReadLine()
+        Console.WriteLine("result")
+    End Sub
+End Module

@@ -1,0 +1,22 @@
+A contribution by jgvel - Approved by CSGO_BOT,codybumbaandANONYMOUS42
+ 	
+Goal
+Sum all the numbers in the string.
+
+Input
+Text Line of text with numbers.
+
+Output
+num Sum of the numbers in the text.
+
+Constraints
+- All the numbers are always integers.
+- Symbol "-" before a number makes the number negative.
+
+Example
+
+Input
+"I have 2 apples and 3 grapes"
+
+Output
+5

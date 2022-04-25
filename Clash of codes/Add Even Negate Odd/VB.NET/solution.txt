@@ -1,0 +1,30 @@
+Module Solution
+    Dim total As Integer = 0
+    Sub Main () 
+        Dim a as Integer
+        a = Console.ReadLine()
+
+        Dim b as Integer
+        b = Console.ReadLine()
+
+        Dim c as Integer
+        c = Console.ReadLine()
+
+        AddOrSubstract(a)
+        AddOrSubstract(b)
+        AddOrSubstract(c)
+        Console.WriteLine(total)
+    End Sub
+
+    Private Sub AddOrSubstract(num As Integer)
+         If isEven(num) Then
+            total = total + num
+        Else
+            total = total - num
+        End If
+    End Sub
+
+    Private Function isEven(numToCheck As Integer) As Boolean
+        Return (numToCheck And 1) = 0
+    End Function
+End Module

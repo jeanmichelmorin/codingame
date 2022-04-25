@@ -1,0 +1,12 @@
+import sys
+import math
+import re
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+text = input()
+l = re.findall('-{0,1}[0-9]+', text)
+s=0
+for e in l:
+    s+=int(e)
+print(s)

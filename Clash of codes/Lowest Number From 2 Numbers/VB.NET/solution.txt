@@ -1,0 +1,14 @@
+Module Solution
+    Sub Main ()
+        
+        Dim N as Integer
+        N = Console.ReadLine()
+
+        Dim M as Integer
+        M = Console.ReadLine()
+
+        Dim result as Integer = IIf(M > N, N, M)
+        Console.WriteLine(result)
+
+    End Sub
+End Module

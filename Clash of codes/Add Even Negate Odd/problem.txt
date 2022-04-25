@@ -1,0 +1,27 @@
+A contribution by Telokis - Approved by Exanc,ghsuvr123andVynom
+
+Goal
+You are given three numbers a, b and c.
+Starting from 0, compute the total:
+- If the number is even, add it to the total.
+- If the number is odd, subtract it from the total.
+
+Input
+Line 1: An integer a.
+Line 2: An integer b.
+Line 3: An integer c.
+
+Output
+The total following the given rule.
+Constraints
+0 ≤ a ≤ 1000
+0 ≤ b ≤ 1000
+0 ≤ c ≤ 1000
+
+Example
+Input
+3
+2
+4
+Output
+3
